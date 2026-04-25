@@ -20,17 +20,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ✨ FUNKY LIGHT THEME INVERSION ✨ */
 html {
-  /* Inverts the dark #050508 to a creamy white, and white text to black. */
-  /* hue-rotate(180deg) ensures that brand colors (violet, indigo, emerald) stay the EXACT same color! */
-  filter: invert(1) hue-rotate(180deg);
-  background-color: white; /* Ensures scrollbars look right */
-}
-
-/* Revert the filter on media and logos so they don't look inverted */
-img, svg, video {
-  filter: invert(1) hue-rotate(180deg);
+  background-color: #050508; 
 }
 
 @layer utilities {
